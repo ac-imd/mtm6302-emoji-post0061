@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  overflow-x: hidden;
+}
+
+/* Title */
+.pageTitle {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Gallery styling */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* Styling for each emoji container */
+.emoji {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fafafa;
+  min-width: 100px;
+}
+
+/* Styling for the emoji character */
+.emoji span {
+  font-size: 2rem;
+}
+
+/* Styling for the emoji code */
+.emoji code {
+  margin-top: 5px;
+  font-size: 0.8rem;
+  color: #333;
+}
