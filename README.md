@@ -1,4 +1,5 @@
 # Emoji
-> Student Name:
+
+> Student Name: Marilena Postolahe
 >
-> Student Number:
+> Student Number: 041090701
